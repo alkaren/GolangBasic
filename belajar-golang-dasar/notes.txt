@@ -1,0 +1,19 @@
+- feature concurency Go
+- garbage collector (penghapusan data-data yang sudah tidak digunakan di aplikasi secara otomatis)
+
+Cara membuat project: go mod init [Nama Project]
+Cara meng-compile project: go build
+Cara Run tanpan meng-compile: go run [Nama File]
+
+# Multiple Main Function
+1. Tidak boleh ada nama function yang sama (must be unique)
+
+# Tipe Data
+1. Number [Int (Bilangan Bulat), Floating Point (Decimal)]
+2. Boolean [True/False]
+3. String
+4. Variable -> var Name / Name := "hello"
+5. Constant (variable yang tidak pernah berubah) -> const Name / Name := "hello"
+6. Slice (sering digunakan) -> potongan dari data array
+7. Map -> {key: value}
+8. 
